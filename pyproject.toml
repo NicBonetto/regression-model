@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regression-model"
+authors = [
+  { name: "Nicholas Bonetto", email: "nick.bonetto@gmail.com" }
+]
+description = "A ML model that predicts home prices in Boston mid-1970s."
+dependencies = [
+  "tensorflow",
+  "keras",
+  "numpy",
+  "matplotlib"
+]
+
